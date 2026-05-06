@@ -148,7 +148,7 @@ Follow the prompts to configure:
 ## 📁 Project Structure
 
 ```
-lambda/
+serverless-user-api/
 ├── handlers/                # Lambda function handlers
 │   ├── create.js           # POST /users
 │   ├── get.js              # GET /users/{id}
