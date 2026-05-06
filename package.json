@@ -1,0 +1,18 @@
+{
+  "name": "dynamodb-lambda-crud",
+  "version": "1.0.0",
+  "description": "Lambda functions for DynamoDB CRUD operations",
+  "type": "module",
+  "scripts": {
+    "install-deps": "cd handlers && npm install",
+    "sam:build": "sam build",
+    "sam:local": "sam local start-api --docker-network dynmo-crud_default",
+    "sam:invoke:create": "sam local invoke CreateUserFunction --event events/create-user.json",
+    "sam:invoke:list": "sam local invoke ListUsersFunction --event events/list-users.json",
+    "test:local": "bash scripts/test-lambda-local.sh"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.540.0",
+    "@aws-sdk/lib-dynamodb": "^3.540.0"
+  }
+}

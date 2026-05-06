@@ -1,0 +1,8 @@
+{
+  "body": "{\"name\":\"Abdullah\",\"email\":\"abdullah@test.com\",\"role\":\"developer\"}",
+  "httpMethod": "POST",
+  "path": "/users",
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
