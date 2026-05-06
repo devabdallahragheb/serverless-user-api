@@ -500,7 +500,7 @@ For production:
 
 ## 📝 License
 
-MIT
+Abdullah Abdelglil
 
 ---
 
